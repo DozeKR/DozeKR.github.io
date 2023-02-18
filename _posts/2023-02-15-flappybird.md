@@ -5,8 +5,6 @@ categories: GameReview
 tag: [FlappyBird, Unity]
 #toc: true      // 사이드에 움직이는 목차 생성 여부
 author_profile: false
-sidebar:
-    nav: "docs"
 ---
 
 # Flappy Bird 
@@ -19,7 +17,8 @@ sidebar:
 
 이 게임은 클릭 혹은 터치라는 간단한 조작으로 위와 같은 장애물 사이를 지나면 점수가 오르는 게임입니다.  
 
-
+ 플레이 해보고 싶은 분들은 아래 버튼을 클릭해주세요.
+ [FlappyBird](https://flappybird.io/){: .btn .btn--info}
 
 **-게임 조건-**
 

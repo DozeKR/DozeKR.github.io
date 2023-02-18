@@ -2,11 +2,9 @@
 layout: single
 title:  "[#U01] FlappyBirdLike #01"
 categories: Coding
-tag: [FlappyBird, Unity, C#]
-#toc: true      // 사이드에 움직이는 목차 생성 여부
+tag: [FlappyBird, Unity]
+toc: true      
 author_profile: false
-sidebar:
-    nav: "docs"
 ---
 
 # [# U01] FlappyBirdLike 구현 #01 
@@ -37,11 +35,13 @@ sidebar:
 ![firstscreen](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird01/firstscreen.png?raw=true)
 
 프로젝트의 첫 화면입니다. 
+좌측에 하이어러키 창에서 밑에 설명할 게임오브젝트를 생성 및 관리가 가능합니다.
+하이어러키 창에서 게임오브젝트를 클릭할 경우 우측에 인스펙터창에서 게임오브젝트의 정보를 확인 가능합니다.
+아래에 Project창에서 개발에 사용할 파일들을 관리 가능합니다. 옆에 콘솔창을 통해 에러등을 확인 가능합니다.
 
 ![changescreen](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird01/changescreen.png?raw=true)
 
-
-화면 구성은 커스텀이 가능합니다.
+화면 구성은 가각의 창을 드래그하여 커스텀이 가능합니다.
 
 # 게임오브젝트(GameObject) 
 
