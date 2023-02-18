@@ -3,7 +3,9 @@ layout: single
 title:  "[#U01] FlappyBirdLike #01"
 categories: Coding
 tag: [FlappyBird, Unity]
-toc: true      
+toc: true 
+toc_sticky: true 
+toc_label: 목차    
 author_profile: false
 ---
 
