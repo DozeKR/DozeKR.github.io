@@ -2,7 +2,7 @@
 layout: single
 title:  "Flappy Bird"
 categories: GameReview
-tag: [flappybird, Unity]
+tag: [FlappyBird, Unity]
 #toc: true      // 사이드에 움직이는 목차 생성 여부
 author_profile: false
 sidebar:
@@ -21,7 +21,7 @@ sidebar:
 
 
 
-**-게임의조건-**
+**-게임 조건-**
 
 1. 터치 및 클릭으로 캐릭터가 일정하게 떠오른다
 2. 천장 및 바닥에 캐릭터가 부딪히면 게임이 종료된다.
