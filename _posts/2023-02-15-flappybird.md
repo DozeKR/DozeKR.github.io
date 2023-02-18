@@ -15,7 +15,7 @@ sidebar:
 
  이번에 소개할 게임은 **FlappyBird** 입니다.
 
-![flappybird02]({{site.url}}/images/2023-02-15-flappybird/flappybird02-1676723683439-1.png)
+![flappybird02](https://postfiles.pstatic.net/MjAyMzAyMThfMTM5/MDAxNjc2NzI1NzYxODUz.yyj4dRr8C_F31t2plBHeHDp5zCO1T2SXSVryvl-jj68g.WD08G20v5TN-wx7hd-U4fPmunhzMllmdKA_chtoYelcg.PNG.jd05183/flappybird02.png?type=w580)
 
  이 게임은 클릭 혹은 터치라는 간단한 조작으로 위와 같은 장애물 사이를 지나면 점수가 오르는 게임입니다.  
 
