@@ -15,11 +15,11 @@ sidebar:
 
  이번에 소개할 게임은 **FlappyBird** 입니다.
 
-![flappybird02](../images/2023-02-15-flappybird/flappybird02-1676723683439-1.png)
+![flappybird02]({{site.url}}/images/2023-02-15-flappybird/flappybird02-1676723683439-1.png)
 
  이 게임은 클릭 혹은 터치라는 간단한 조작으로 위와 같은 장애물 사이를 지나면 점수가 오르는 게임입니다.  
 
-**<게임의 조건>**
+**<게임의조건>**
 
 1. 터치 및 클릭으로 캐릭터가 일정하게 떠오른다
 2. 천장 및 바닥에 캐릭터가 부딪히면 게임이 종료된다.
