@@ -19,6 +19,7 @@ author_profile: false
 이 사이트의 경우 저작권이 무려인 자료들을 다운 받을 수 있습니다.
 
 [캐릭터](https://opengameart.org/art-search-advanced?keys=flappy&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=9&field_art_licenses_tid%5B%5D=4&sort_by=count&sort_order=DESC&items_per_page=24&Collection=){: .btn .btn--info}[배경](https://opengameart.org/content/seamless-hd-landscape-in-parts){: .btn .btn--info}
+제가 다운받은 곳의 여기입니다.[장애물](https://opengameart.org/content/bevouliin-free-ingame-obstacles-cyclop-spikes){: .btn .btn--info}
 제가 다운받은 곳의 여기입니다.
 
 ![assets](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/assets.PNG?raw=true)
