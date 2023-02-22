@@ -29,17 +29,17 @@ author_profile: false
 
 프리팹을 만들기 위해서는 완성된 게임오브젝트가 필요한데 먼저 장애물 오브젝트를 만들겠습니다.
 
-![spikes](../images/2023-02-15-unity_flappybird03/spikes.PNG)
+![spikes](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/spikes.PNG?raw=true)
 
 빈게임오브젝트를 생성하고 Spikes로 이름을 변경합니다. Spikes에 마우스를 둔 상태에서 우클릭을 통해 sprites 오브젝트를 생성하면 Spikes부모로 하는 자식 오브젝트를 만들 수 있습니다. 자식 오브젝트 top, bottom 두개를 만들겠습니다.
 
- ![spikes02](../images/2023-02-15-unity_flappybird03/spikes02.png)
+ ![spikes02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/spikes02.png?raw=true)
 
 top, bottom 오브젝트에 다운받은 장애물 이미지를 sprite에 드래그 앤 드랍 하고 크기와 위치를 조절하여 장애물처럼 만듭니다. 그리고 모양에 맞게 콜라이더를 추가해줍니다. 저는 Caspsul Collider 2D를 넣었습니다.
 
 
 
-![spikes03](../images/2023-02-15-unity_flappybird03/spikes03.PNG)
+![spikes03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/spikes03.PNG?raw=true)
 
 Spikes 부모 오브젝트에 Rigidbody 2D 를 추가하고, 물리 영향은 받지 않지만 스크립트를 통해서 움직일 수 있는 Kinematic으로 설정하겠습니다. 
 
@@ -49,19 +49,19 @@ Spikes 부모 오브젝트에 Rigidbody 2D 를 추가하고, 물리 영향은 �
 
 
 
-![prefabs01](../images/2023-02-15-unity_flappybird03/prefabs01.PNG)
+![prefabs01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/prefabs01.PNG?raw=true)
 
 위 처럼 먼저 프로젝트 창에서 Prefabs 폴더를 만들겠습니다. **폴더명인 Prefabs 는 미리 정의된 폴더이름이라 스팰링이 틀리지 않게 조심해야 합니다.**
 
 
 
-![prefabs02](../images/2023-02-15-unity_flappybird03/prefabs02.png)
+![prefabs02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/prefabs02.png?raw=true)
 
 Prefabs 폴더에 완성한 Spikes 오브젝트를 드래그 앤 드랍 해줍니다. 하이어러키 창에서 Spikes 오브젝트가 파란색으로 변하면 프피팹으로 변한겁니다.
 
 
 
-![prefabs03](../images/2023-02-15-unity_flappybird03/prefabs03.png)
+![prefabs03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/prefabs03.png?raw=true)
 
 위 이미지에서 변한 것이 보이나요? 실수로 프리팹을 삭제하면 오브젝트가 붉은색으로 변한 것을 볼 수 있습니다. 이 때는 붉은색으로 변한 오브젝트를 우클릭 > Prefab > Unpack 하면 기본 오브젝트로 만들 수 있습니다. 확인 했으면 다시 Spikes 오브젝트를 프리팹으로 만들겠습니다.
 
@@ -98,12 +98,12 @@ Unity 스크립트를 실행하면 사전에 지정한 순서대로 여러 개�
 
 
 
-![script01](../images/2023-02-15-unity_flappybird03/script01.png)
+![script01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/script01.png?raw=true)
 프로젝트창에서 Assets 를 선택 후 우클릭 > Create > C# script 를 통해 스크립트를 생성합니다. 이 때 이름을 바로 정해주면 파일이름과 클래스 이름이 같게 만들어져서 편합니다. **파일이름과 클래스 이름이 다를 경우 스크립트가 작동을 안합니다.** 저는 PlayerController로 만들었습니다.
 
 
 
-![script02](../images/2023-02-15-unity_flappybird03/script02.png)
+![script02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/script02.png?raw=true)
 
 만들어진 스크립트를 더블 클릭 하면 위의 이미지와 같이 저희가 코딩할 때 자주보던 창을 확인할 수 있습니다.
 
@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-![script03](../images/2023-02-15-unity_flappybird03/script03.png)
+![script03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird03/script03.png?raw=true)
 
 콘솔창에서 Start 게임 시작 때 한 번 그리고 매 프레임마다 Update가 뜨는 것을 확인할 수 있습니다. 이렇게 C#스크립트는 이벤트의 실행 순서에 맞춰 반복하여 동작합니다.
 
