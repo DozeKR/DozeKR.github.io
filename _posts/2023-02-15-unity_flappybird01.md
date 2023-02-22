@@ -11,11 +11,13 @@ author_profile: false
 
 # [# U01] FlappyBirdLike 구현 #01 
 
+첫 유니티 작업입니다. 첫 작업이니 만큼 개념을 조금씩 넣어가면서 포스팅 할 생각입니다.
+
 [FlappyBird리뷰](https://dozekr.github.io/gamereview/flappybird/){: .btn .btn--info}
 
 **-게임 조건-**
 
-1. 터치 및 클릭으로 캐릭터가 일정하게 떠오른다
+1. 터치 및 클릭으로 캐릭터가 일정하게 떠오른다.
 2. 천장 및 바닥에 캐릭터가 부딪히면 게임이 종료된다.
 3. 장애물에 캐릭터가 부딪히면 게임이 종료된다.
 4. 장애물은 일정 범위로 랜덤하게 생성된다.
@@ -128,3 +130,5 @@ Transform 컴포넌트에서 Position, Rotation, Scale의 값의 변경으로 �
 1. 게임오브젝트(GameObject)는 포장지.
 2. 컴포넌트(Component)는 내용물.
 3. 프로퍼티(Property)s는 컴포넌트의 속성, 기능, 옵션 같은 세부사항이다.
+
+

@@ -113,3 +113,35 @@ Unity 스크립트를 실행하면 사전에 지정한 순서대로 여러 개�
 
 
 
+```c#
+public class PlayerController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("Start");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Debug.Log("Update");
+    }
+}
+
+```
+
+위와 같이 코딩해주시고, 저장 후 PlayerController 스크립트를 Player 오브젝트 인스펙터창에 드래그 앤 드랍 해줍니다. 그리고 게임을 실행시켜 보겠습니다.
+
+
+
+![script03](../images/2023-02-15-unity_flappybird03/script03.png)
+
+콘솔창에서 Start 게임 시작 때 한 번 그리고 매 프레임마다 Update가 뜨는 것을 확인할 수 있습니다. 이렇게 C#스크립트는 이벤트의 실행 순서에 맞춰 반복하여 동작합니다.
+
+
+
+# 정리
+1. 프리팹(Prefab): 콜라이더는 충돌 영역을 감지하는 컴포넌트입니다.
+2. (상속)부모-자식 관계: 리지드바디는 물리엔진을 사용할수 
+3. C# 스크립트 이벤트의 실행 순서에 맞춰 반복하여 동작
