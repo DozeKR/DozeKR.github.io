@@ -10,7 +10,9 @@ author_profile: false
 ---
 
 # [# U01] FlappyBirdLike 구현 #03
+
 # 시작
+
 ## 프리팹(Prefab)
 **프리팹**은 슈팅 게임에 탄막이나 저희가 구현하려는 FlappyBird의 장애물같이 반복적으로 나오는 게임오브젝트를 **효율적인 재상용**을 위해 사용하는 것입니다.
 
