@@ -43,9 +43,9 @@ private void OnCollisionExit2D (Collision2D collision)
 
 ```
 **-OnCollison함수 작동 방식-**
-OnCollisionEnter : 충돌이 발생할 떄 호출
-OnCollisionStay  : 충돌이 진행중일 때 호출
-OnCollisionExit  : 충돌이 종료됐을 때 호출
+* OnCollisionEnter : 충돌이 발생할 떄 호출
+* OnCollisionStay  : 충돌이 진행중일 때 호출
+* OnCollisionExit  : 충돌이 종료됐을 때 호출
 
 위와 같은 방식으로 작동합니다. Debug.Log를 활용해서 직접 확인 해보겠습니다.
 
@@ -82,9 +82,9 @@ private void OnTriggerExit2D (Collider2D collision)
 ```
 
 **-OnTrigger함수 작동 방식-**
-OnTriggerEnter : 트리거와 충돌이 발생할 떄 호출
-OnTriggerStay  : 트리거와 충돌이 진행중일 때 호출
-OnTriggerExit  : 트리거와 충돌이 종료됐을 때 호출
+* OnTriggerEnter : 트리거와 충돌이 발생할 떄 호출
+* OnTriggerStay  : 트리거와 충돌이 진행중일 때 호출
+* OnTriggerExit  : 트리거와 충돌이 종료됐을 때 호출
 
 
 
@@ -185,13 +185,11 @@ Update()에서 **Input.GetMouseButtonDown(0)**를 통해 마우스 클릭의 참
 
 # 정리
 **-OnCollison함수 작동 방식-**
-
-OnCollisionEnter : 충돌이 발생할 떄 호출
-OnCollisionStay  : 충돌이 진행중일 때 호출
-OnCollisionExit  : 충돌이 종료됐을 때 호출
+* OnCollisionEnter : 충돌이 발생할 떄 호출
+* OnCollisionStay  : 충돌이 진행중일 때 호출
+* OnCollisionExit  : 충돌이 종료됐을 때 호출
 
 **-OnTrigger함수 작동 방식-**
-
-OnTriggerEnter : 트리거와 충돌이 발생할 떄 호출
-OnTriggerStay  : 트리거와 충돌이 진행중일 때 호출
-OnTriggerExit  : 트리거와 충돌이 종료됐을 때 호출
+* OnTriggerEnter : 트리거와 충돌이 발생할 떄 호출
+* OnTriggerStay  : 트리거와 충돌이 진행중일 때 호출
+* OnTriggerExit  : 트리거와 충돌이 종료됐을 때 호출
