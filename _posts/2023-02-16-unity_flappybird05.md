@@ -48,7 +48,7 @@ author_profile: false
 
 
 
-### 장애물 왼쪽으로 이동(Move 스크립트)
+## 장애물 왼쪽으로 이동(Move 스크립트)
 먼저 장애물을 왼쪽으로 이동하게 만들겠습니다.
 
 ![Prefap02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/Prefap02.png?raw=true)
@@ -111,7 +111,7 @@ public float speed를 선언하고, Vector3.left * Time.deltaTime 식에 speed�
 
 
 
-### 장애물 일정 범위 랜덤 생성(Spawner 스크립트)
+## 장애물 일정 범위 랜덤 생성(Spawner 스크립트)
 완성한 Spikes 프리팹을 생성하는 제너레이터(스포너) 오브젝트를 만들겠습니다.
 
 ![SpawnPoint](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/SpawnPoint.png?raw=true)
