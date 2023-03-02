@@ -145,7 +145,7 @@ Trigger 오브젝트를 만들때 붙여준 태그를 활용하여 if문을 활�
 
 위에서 작성한 PlayerController 스크립트를 처음상태로 만들고 진행하겠습니다.
 
-
+**<PlayerController 스크립트>**
 
 ```c#
 
