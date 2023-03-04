@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Flappy Bird"
+title:  "Flappy Bird Review"
 categories: GameReview
 tag: [FlappyBird, Unity]
 #toc: true      // 사이드에 움직이는 목차 생성 여부
