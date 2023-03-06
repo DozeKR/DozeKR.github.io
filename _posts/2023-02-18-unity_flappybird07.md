@@ -89,7 +89,7 @@ Floor을 선택하고 애니메이션을 추가합니다. 애니메이션을 빨
 
 
 
-![sound01](../images/2023-02-18-unity_flappybird07/sound01.png)
+![sound01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/sound01.png?raw=true)
 
 플레이어에 Audio Source 컴포넌트를 추가합니다. Play On Awake를 꺼주고 변환한 음원 파일을 AudioClip에 넣어줍니다.
 터치 및 클릭 시 플레이어가 날아오를 때 효과음이 나오게 설정하기 위해 PlayerController스크립트를 조금 수정하겠습니다.
@@ -117,37 +117,37 @@ void Update(){
 
 다시 유니티로 돌아와서 File > Build Settings를 켜줍니다.
 
-![build](../images/2023-02-18-unity_flappybird07/build.png)
+![build](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/build.png?raw=true)
 
 처음 키시는 분들은 Windows, Mac, Linux로 설정돼 있을겁니다. 이것을 Android로 바꿔주고 switch 해줍니다. 이후에 Build And Run을 실행합니다.
 
 
 
-![test01](../images/2023-02-18-unity_flappybird07/test01.png)
+![test01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/test01.png?raw=true)
 
 핸드폰에 화면이 실행된 것을 확인할 수 있습니다. 하지만 텍스트에 조금 문제가 있습니다. 이것을 수정하겠습니다.
 
 
 
-![fontchange01](../images/2023-02-18-unity_flappybird07/fontchange01.png)
+![fontchange01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/fontchange01.png?raw=true)
 
 PointCanvas에 들어가서 CanvasScaler컴포넌트에 UI Scale Mode를 Scale Width Screen Size로 변경하고 폰 기종에 맞는 비율을 적어줍니다. 저는 1440 3040으로 설정했습니다.
 
 
 
-![fontchange02](../images/2023-02-18-unity_flappybird07/fontchange02.png)
+![fontchange02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/fontchange02.png?raw=true)
 
 그리고 Point 오브젝트에 들어가서  BestFit을 체크해주고 사이즈를 적절하게 수정합니다.
 
 
 
-![fontchange03](../images/2023-02-18-unity_flappybird07/fontchange03.png)
+![fontchange03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/fontchange03.png?raw=true)
 
 게임오버씬도 위와 같은 방법으로 수정합니다.
 
 
 
-![test02](../images/2023-02-18-unity_flappybird07/test02.png)
+![test02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-18-unity_flappybird07/test02.png?raw=true)
 
 다시 Build And Run을 실행한 결과입니다 원하는 사이즈의 폰트가 나온것을 확인할 수 있습니다.
 
