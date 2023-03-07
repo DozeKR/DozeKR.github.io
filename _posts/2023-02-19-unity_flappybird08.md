@@ -15,12 +15,12 @@ author_profile: false
 ## PlayScene
 
 **-PlayScene-**
-![PlayScene](../images/2023-02-19-unity_flappybird08/PlayScene.png)
+![PlayScene](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-19-unity_flappybird08/PlayScene.png?raw=true)
 
 
 
 **-Prefabs-**
-![Prefabs](../images/2023-02-19-unity_flappybird08/Prefabs.png)
+![Prefabs](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-19-unity_flappybird08/Prefabs.png?raw=true)
 
 
 
@@ -186,7 +186,7 @@ public class PointUp : MonoBehaviour
 
 ## GameOverScene
 **-GameOverScene-**
-![GameOverScene](../images/2023-02-19-unity_flappybird08/GameOverScene.png)
+![GameOverScene](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-19-unity_flappybird08/GameOverScene.png?raw=true)
 
 
 
