@@ -9,9 +9,11 @@ author_profile: false
 
 # Flappy Bird 
 
-![external/techhol...](https://i.namu.wiki/s/89e0b5b0324433fbab46de40e97c92a02dc18df542d204bf76fd6131ea4f3342e3475ab2c27eda0c23bb5438717b4d48f245e6191c31138ac276c82db0624d4d79e8b178ef69749551197d40c0451b3a22145cb28fb6d03ff3f6156ec9978296)
+![external/techhol...](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-14-first/flappybird.PNG?raw=true)
 
  이번에 소개할 게임은 **FlappyBird** 입니다.
+
+
 
 ![flappybird02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-flappybird/flappybird02.png?raw=true)
 
