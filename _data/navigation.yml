@@ -15,12 +15,6 @@ docs:
     - title: "Tag"
       url: /tags/
 
-counts:
-  - title: ""Category"
-    use: true
-  - title : "Tag"
-    use: true
-
 
 
   # - title: "About"
