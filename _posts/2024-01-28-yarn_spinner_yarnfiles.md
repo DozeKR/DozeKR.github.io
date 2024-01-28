@@ -26,7 +26,7 @@ Yarn Project에는 프로젝트가 Source Files 디렉토리에서 찾은 모든
 
 기본적으로 Yarn Project와 동일한 디렉토리에 있는 Yarn Scripts들은 자동으로 포함 
 
-Pattern|Description|Examples|
+|Pattern|Description|Examples|
 |---|----|-----|
 |```*```|임의의 파일명|```*.yarn```은 test1.yarn 과 test2.yarn을 찾음 |
 |```**/*```|서브디렉토리를 포함한 임의의 경로|```**/*.yarn```은 test1.yarn과 Subfolder/test2.yarn을 찾음|
@@ -66,8 +66,8 @@ Dialouge Runner가 대화를 시작하라는 명령을 받으면 제공된 Yarn 
 
 
 ### Inspector
-Property|Description
-|---|----|
+|Property|Description|
+|---|---|
 |Source Files|Yarn Project에서 Yarn Scripts를 찾는 장소 목록|
 |Base Language|Yarn Scripts가 작성되는 언어|
 |Use Addressable Assets|체크한 경우, Addressable Assets system을 사용하여 오디오 파일과 같은 자산을 가져와야 한다고 알려주도록 설정 |
