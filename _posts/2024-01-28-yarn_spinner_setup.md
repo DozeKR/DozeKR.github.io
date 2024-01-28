@@ -17,7 +17,7 @@ sidebar:
 
 Extensions -> Yarn Spinner 검색 -> Yarn Spinner 선택  -> Install
 
-![image-20240128215226646] (https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/image-20240128215226646.png?raw=true)
+![image-20240128215226646](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/image-20240128215226646.png?raw=true)
 
 
 
