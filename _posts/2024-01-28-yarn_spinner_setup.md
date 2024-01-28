@@ -17,7 +17,7 @@ sidebar:
 
 Extensions -> Yarn Spinner 검색 -> Yarn Spinner 선택  -> Install
 
-![image-20240128215226646](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/image-20240128215226646.png?raw=true)
+![YarnSpinnerExtensions](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/YarnSpinnerExtensions.png?raw=true)
 
 
 
@@ -27,7 +27,7 @@ Extensions -> Yarn Spinner 검색 -> Yarn Spinner 선택  -> Install
 
 Editor -> Project Settings -> Package Manager
 
-![image-20240128215601904](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/image-20240128215601904.png?raw=true)
+![ProjectSettings](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/ProjectSettings.png?raw=true)
 
 1. Name field 에  ```OpenUPM``` 입력
 2. URL field 에 ```https://package.openupm.com``` 입력
@@ -40,7 +40,7 @@ Window -> Package Manager
 
 
 
-![image-20240128220052064](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/image-20240128220052064.png?raw=true)
+![PackageManager](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2024-01-28-yarn_spinner_setup/PackageManager.png?raw=true)
 
 1. 상단 메뉴에서 Packages 를 클릭해서 My Registires 선택
 2. Yarn Spinner 선택 후, Inastall 클릭
