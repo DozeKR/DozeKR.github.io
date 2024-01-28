@@ -67,12 +67,12 @@ Dialouge Runner가 대화를 시작하라는 명령을 받으면 제공된 Yarn 
 
 ### Inspector
 |Property|Description|
-|---|---|
+|---|---------|
 |Source Files|Yarn Project에서 Yarn Scripts를 찾는 장소 목록|
 |Base Language|Yarn Scripts가 작성되는 언어|
-|Use Addressable Assets|체크한 경우, Addressable Assets system을 사용하여 오디오 파일과 같은 자산을 가져와야 한다고 알려주도록 설정 |
+|Use Addressable Assets|체크한 경우, Addressable Assets system을 사용하여 오디오 파일과 같은 자산을 가져와야 한다고 알려주도록 설정|
 |Use Unity Localisation System|체크한 경우, 유니티 Localisation 시스템을 사용하여 라인 데이터를 저장, Localisation 패키지가 설치된 경우에만 나타남|
-|Export Strings as CSV|버튼 클릭 시, Yarn Scripts에서 이 프로젝트가 사용하는 모든 행이 .csv 파일로 기록되며, 이 파일은 다른 언어로 번역될 수 있음. 자세한 내용은 [Adding Localizations and Assets to Projects](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 을 참조 |
+|Export Strings as CSV|버튼 클릭 시, Yarn Scripts에서 이 프로젝트가 사용하는 모든 행이 .csv 파일로 기록되며, 이 파일은 다른 언어로 번역될 수 있음. 자세한 내용은 [Adding Localizations and Assets to Projects](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 을 참조|
 |Update Existing Strings Files|버튼 클릭 시, Languages to Source Assets 목록에 구성된 모든 .csv 문자열 파일이 문자열 파일이 생성된 이후 추가, 수정 또는 삭제된 행으로 업데이트 됨,프로젝트가 Unity Localization 시스템에서 사용되지 않는 경우에만 나타남. 자세한 내용은 [Adding Localizations and Assets to Projects](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 을 참조|
 |Add Line Tags to Scripts|버튼 클릭 시,소스 스크립트 목록에 #line: 태그가 없는 대화행이 하나 추가. 자세한 내용은 [Adding Localizations and Assets to Projects](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 을 참조|
 
