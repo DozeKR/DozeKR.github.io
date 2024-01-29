@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[YarnSpinner] #03 Node, Lines, and Options "
+title:  "[YarnSpinner] #03 Yarn Scripts Configuration "
 categories: Study
 tag: [YarnSpinner]
 toc: true 
@@ -11,7 +11,7 @@ sidebar:
     nav: "counts"
 ---
 
-# [YarnSpinner] #03 Node, Lines, and Options
+# [YarnSpinner] #03 Yarn Scripts Configuration
 ## Node
 노드는 대화를 넣을 수 있는 곳
 파일에 링크하는 수만큼 노드를 가질 수 있음
