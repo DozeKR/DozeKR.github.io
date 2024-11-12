@@ -106,5 +106,6 @@ Yarn Spinner에서 제공하는 2개의 내장 Command ```wait```, ```stop```이
 ### 커스텀 기능 
 [Commands and Functions](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 문서 참조
 
+테스트 테스트
 
 ## Tags and Metadata
