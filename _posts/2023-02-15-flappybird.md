@@ -11,8 +11,6 @@ sidebar:
 
 # Flappy Bird 
 
-![external/techhol...](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-14-first/flappybird.PNG?raw=true)
-
  이번에 소개할 게임은 **FlappyBird** 입니다.
 
 
@@ -21,8 +19,8 @@ sidebar:
 
 이 게임은 클릭 혹은 터치라는 간단한 조작으로 위와 같은 장애물 사이를 지나면 점수가 오르는 게임입니다.  
 
- 플레이 해보고 싶은 분들은 아래 버튼을 클릭해주세요.
- [FlappyBird](https://flappybird.io/){: .btn .btn--info}
+ 플레이 해보고 싶은 분들은  여기를 [FlappyBird](https://flappybird.io/) 클릭해주세요.
+
 
 **-게임 조건-**
 
