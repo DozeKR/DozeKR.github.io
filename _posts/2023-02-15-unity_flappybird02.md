@@ -24,8 +24,6 @@ sidebar:
 제가 다운받은 곳의 여기입니다.[장애물](https://opengameart.org/content/bevouliin-free-ingame-obstacles-cyclop-spikes){: .btn .btn--info}
 제가 다운받은 곳의 여기입니다.
 
-![assets]({{site.url}}/images/2023-02-15-unity_flappybird02/assets.PNG?raw=true)
-
 프로젝트에서 Assets을 선택하고, Assets 창에 우클릭 > Create > Folder를 생성합니다. 다운받은 자료를 드래그 앤 드랍해서 폴더에 넣습니다.
 
 # 시작
