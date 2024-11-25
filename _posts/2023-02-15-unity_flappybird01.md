@@ -33,14 +33,14 @@ sidebar:
 [Unity다운](https://store.unity.com/kr/download?gclid=Cj0KCQiAi8KfBhCuARIsADp-A551c5kKfOAVcE6jWVTW-V2mNXrpNT8yZgX3o9ZM3S9mlB3xIwn4U5YaAlMQEALw_wcB&gclsrc=aw.ds){: .btn .btn--info}
 
 
-![newproject2D]({{site.url}}/images/2023-02-15-unity_flappybird01/newproject2D.png)
+![newproject2D]({{site.url}}/images/2023-02-15-unity_flappybird01/newproject2D.PNG?raw=true)
 
 에디터 버젼: 2021.3.18f1 에서 진행하겠습니다.
 2D코어를 선택하고 프로젝트명을 바꾸고 프로젝트를 생성하겠습니다.
 
 
 
-![firstscreen]({{site.url}}/images/2023-02-15-unity_flappybird01/firstscreen.png)
+![firstscreen]({{site.url}}/images/2023-02-15-unity_flappybird01/firstscreen.PNG?raw=true)
 
 프로젝트의 첫 화면입니다. 
 좌측에 하이어러키 창에서 밑에 설명할 게임오브젝트를 생성 및 관리가 가능합니다.
@@ -49,7 +49,7 @@ sidebar:
 
 
 
-![changescreen]({{site.url}}/images/2023-02-15-unity_flappybird01/changescreen.png)
+![changescreen]({{site.url}}/images/2023-02-15-unity_flappybird01/changescreen.PNG?raw=true)
 
 화면 구성은 가각의 창을 드래그하여 커스텀이 가능합니다.
 
@@ -59,7 +59,7 @@ sidebar:
 
 
 
-![CreateGameObject]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject.png)
+![CreateGameObject]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject.PNG?raw=true)
 
 하이어러키 창에서 우클릭을 통해 게임오브젝트를 생성할 수 있습니다.
 **게임오브젝트(GameObject)**는 겉모습을 보여주는 **포장지**의 역할을 합니다.
@@ -68,7 +68,7 @@ sidebar:
 
 
 
-![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG)
+![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG?raw=true)
 
 하이어러키 창에서 우클릭 -> CreateEmpty 게임오브젝트를 생성하고,
 하이어러키 창에서 우클릭 -> 2D Object -> Sprites -> Circle 게임오브젝트를 생성합니다.
@@ -77,7 +77,7 @@ sidebar:
 
 ## 컴포넌트(Component), 프로퍼티(Property)
 
-![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG)
+![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG?raw=true)
 
 생성된 GameObject를 선택하고, 인스펙터창에서 선택한 게임오브젝트의 컴포넌트를 볼 수 있습니다.
 인스펙터창에서 보이는 Transform은 GameObject의 컴포넌트입니다. 
@@ -85,13 +85,13 @@ Transform 컴포넌트는 게임오브젝트의 위치, 회전, 크기를 조절
 
 
 
-![CreateGameObject03]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject03.PNG)
+![CreateGameObject03]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject03.PNG?raw=true)
 
 Circle 게임오브젝트랑 비교하면 Sprite Renderer 컴포넌트의 유무의 차이를 알 수 있습니다.
 
 
 
-![CreatComponent]({{site.url}}/images/2023-02-15-unity_flappybird01/CreatComponent.png)
+![CreatComponent]({{site.url}}/images/2023-02-15-unity_flappybird01/CreatComponent.PNG?raw=true)
 
 Add Component를 통해서 Sprite Renderer 컴포넌트를 추가하여 GameObject를 Circle과 똑같은 역할을 할 수 있게 만들 수 있습니다.  
 즉 **컴포넌트(Component)**는 게임오브젝트가 어떤 기능을 할지 정하는 **내용물**의 역할을 합니다.
@@ -101,7 +101,7 @@ Add Component를 통해서 Sprite Renderer 컴포넌트를 추가하여 GameObje
 
 ## 간단한 조작
 
-![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG)
+![CreateGameObject02]({{site.url}}/images/2023-02-15-unity_flappybird01/CreateGameObject02.PNG?raw=true)
 
 인스펙터창에서 게임오브젝트의 이름이 변경 가능하고, 오브젝트를 식별해주는 태그, 아이콘을 설정 가능합니다.
 
@@ -111,19 +111,19 @@ Transform 컴포넌트에서 Position, Rotation, Scale의 값의 변경으로 �
 
 
 
-![w]({{site.url}}/images/2023-02-15-unity_flappybird01/w.PNG)
+![w]({{site.url}}/images/2023-02-15-unity_flappybird01/w.PNG?raw=true)
 
 단축키 (w)를 통해서 오브젝트의 위치 변경이 가능합니다.
 
 
 
-![e]({{site.url}}/images/2023-02-15-unity_flappybird01/e.PNG)
+![e]({{site.url}}/images/2023-02-15-unity_flappybird01/e.PNG?raw=true)
 
 단축키 (e)를 통해서 오브젝트의  회전이 가능합니다.
 
 
 
-![r]({{site.url}}/images/2023-02-15-unity_flappybird01/r.PNG)
+![r]({{site.url}}/images/2023-02-15-unity_flappybird01/r.PNG?raw=true)
 
 단축키 (r)을 통해서 오브젝트의 크기 변경이 가능합니다.
 
