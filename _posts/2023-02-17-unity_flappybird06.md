@@ -31,7 +31,7 @@ sidebar:
 
 # 사전 준비
 
-![Prefap01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/Prefap01.png?raw=true)
+![Prefap01]({{site.ur}}/images/2023-02-17-unity_flappybird06/Prefap01.png?raw=true)
 
 이전 포스팅에서 미리 수정한 프리팹에 PointTrigger에 Is Trigger가 제대로 체크되어 있는지 확인합니다.
 
@@ -49,7 +49,7 @@ sidebar:
 
 ## 점수 표시 UI 생성
 
-![UI01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/UI01.png?raw=true)
+![UI01]({{site.ur}}/images/2023-02-17-unity_flappybird06/UI01.png?raw=true)
 
 유니티에서 UI를 만들기 위해서는 먼저 Canvas를 생성해야 합니다.
 하이어러키에 우클릭 > UI >> Canvas 를 생성하고 이름을 PointCanvas로 변경합니다.
@@ -59,7 +59,7 @@ PointCanvas를 클릭한 상태에서 우클릭 > UI > Lagacy > Text를 생성�
 
 Point의 인스펙터 창을 자세히 보겠습니다.
 
-![UI02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/UI02.png?raw=true)
+![UI02]({{site.ur}}/images/2023-02-17-unity_flappybird06/UI02.png?raw=true)
 
 **Rect Transform**은 화면 크기에 상관없이 **Anchor**로 기준점을 잡고 위치를 지정하기 때문에 항상 상대적인 비율로 원하는 위치에 배치할 수 있습니다.
 Anchor의 Min, Max를 조정해서 Anchor의 비율을 정할 수 있습니다.
@@ -111,7 +111,7 @@ Start함수에 게임이 시작할때마다 점수가 0으로 초기화 할 수 
 
 ## 점수를 증가시켜주는(PointUP 스크립트)
 
-![PointUP](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/PointUP.png?raw=true)
+![PointUP]({{site.ur}}/images/2023-02-17-unity_flappybird06/PointUP.png?raw=true)
 
 만들어 놓은 프리팹에 PointTrigger에 스크립트를 추가하고 이름을 PointUp으로 바꿔줍니다.
 
@@ -146,13 +146,13 @@ Scene은 여태 저희가 만들어놓은 하나의 화면을 말합니다. 씬�
 
 유니티 좌측 상단 File > NewScene > Basic 2D 로 씬을 만들고, 하이어러키 에서 씬을 선택한 상태에서 우클릭 > Save Scene as 저희가 만든 프로젝트에 GameOverScene으로 저장하겠습니다.
 
-![NewScene](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/NewScene.png?raw=true)
+![NewScene]({{site.ur}}/images/2023-02-17-unity_flappybird06/NewScene.png?raw=true)
 
 
 
 게임오버 씬을 아래 이미지와 같이 만들겠습니다.
 
-![GameOverScene](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/GameOverScene.png?raw=true)
+![GameOverScene]({{site.ur}}/images/2023-02-17-unity_flappybird06/GameOverScene.png?raw=true)
 
 캔버스, 패널, GameOver 텍스트, Point 텍스트, BestPoint 텍스트, Button 을 만들고, 취향에 맞게 앵커와 사이즈를 조정하여 꾸며줍니다. 
 
@@ -179,7 +179,7 @@ public class Retry : MonoBehaviour
 
 
 
-![Retry](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/Retry.png?raw=true)
+![Retry]({{site.ur}}/images/2023-02-17-unity_flappybird06/Retry.png?raw=true)
 
 완성된 Retry스크립트를 캔버스에 만들어 놓은 RetryBtn의 OnClick 부분에 드래그 앤 드랍 해주고 RetryGame()함수를 실행할 수 있게 만들어 줍니다.
 
@@ -280,7 +280,7 @@ SceneManager.LoadScene("GameOverScene") 통해서 GameOverScene을 뛰워줍니�
 
 이제 마지막으로 테스트 화면입니다.
 
-![test](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-17-unity_flappybird06/test.png?raw=true)
+![test]({{site.ur}}/images/2023-02-17-unity_flappybird06/test.png?raw=true)
 
 
 

@@ -32,7 +32,7 @@ sidebar:
 # 사전준비   
 게임을 완성하기 위해 프리팹을 조금 수정하겠습니다.
 
-![Prefap01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/Prefap01.png?raw=true)
+![Prefap01]({{site.ur}}/images/2023-02-16-unity_flappybird05/Prefap01.png?raw=true)
 
 **조건05. 장애물 사이 공간을 지나갈 때 점수가 오른다.**
 
@@ -55,7 +55,7 @@ sidebar:
 ## 장애물 왼쪽으로 이동(Move 스크립트)
 먼저 장애물을 왼쪽으로 이동하게 만들겠습니다.
 
-![Prefap02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/Prefap02.png?raw=true)
+![Prefap02]({{site.ur}}/images/2023-02-16-unity_flappybird05/Prefap02.png?raw=true)
 
 위 이미지처럼 Spikes 프리팹 오브젝트에 스크립트를 생성하고 이름을 Move로 정하겠습니다.
 
@@ -107,7 +107,7 @@ public float speed를 선언하고, Vector3.left * Time.deltaTime 식에 speed�
 
 
 
-![Prefap03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/Prefap03.png?raw=true)
+![Prefap03]({{site.ur}}/images/2023-02-16-unity_flappybird05/Prefap03.png?raw=true)
 
 테스트 결과입니다. 초마다 장애물의 position 값이 변하는 것을 확인할 수 있습니다.
 이제 좌측으로 움직이는 장애물 Spikes 프리팹을 완성했습니다.
@@ -118,7 +118,7 @@ public float speed를 선언하고, Vector3.left * Time.deltaTime 식에 speed�
 ## 장애물 일정 범위 랜덤 생성(Spawner 스크립트)
 완성한 Spikes 프리팹을 생성하는 제너레이터(스포너) 오브젝트를 만들겠습니다.
 
-![SpawnPoint](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/SpawnPoint.png?raw=true)
+![SpawnPoint]({{site.ur}}/images/2023-02-16-unity_flappybird05/SpawnPoint.png?raw=true)
 
 위 이미지처럼 빈오브젝트를 생성하고 SpwanPoint로 이름을 변경하고, Spawner라는 스크립트를 생성하여 컴포넌트로 추가하겠습니다.
 
@@ -163,13 +163,13 @@ Instantiate(spikes)를 통해 만들어 놓은 프리팹을 복제할 수 있다
 
 
 
-![mission04](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/mission04.png?raw=true)
+![mission04]({{site.ur}}/images/2023-02-16-unity_flappybird05/mission04.png?raw=true)
 
 기존에 하이어러키에 있던 Spikes 오브젝트는 삭제시켜주고, SpawnPoint에 있는 Spawner 스크립트에 Spikes에 만들어 놓은 프리팹 Spikes를 드래그앤 드랍해주고, SpwanTime도 본인에 게임에 맞게 지정해줍니다.
 
 
 
-![mission04_02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird05/mission04_02.png?raw=true)
+![mission04_02]({{site.ur}}/images/2023-02-16-unity_flappybird05/mission04_02.png?raw=true)
 
 테스트틀 통해 위 이미지처럼 나오는 것을 볼 수 있습니다. 장애물의 크기, 플레이어의 크기, 플레이어의 점프력, 장애물의 스폰시간,  장애물 사이의  공간, 장애물의 이동속도등을 조절하여 밸런스를 조정해 줍니다.
 

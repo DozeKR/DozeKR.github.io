@@ -24,13 +24,13 @@ sidebar:
 제가 다운받은 곳의 여기입니다.[장애물](https://opengameart.org/content/bevouliin-free-ingame-obstacles-cyclop-spikes){: .btn .btn--info}
 제가 다운받은 곳의 여기입니다.
 
-![assets](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/assets.PNG?raw=true)
+![assets]({{site.url}}/images/2023-02-15-unity_flappybird02/assets.PNG?raw=true)
 
 프로젝트에서 Assets을 선택하고, Assets 창에 우클릭 > Create > Folder를 생성합니다. 다운받은 자료를 드래그 앤 드랍해서 폴더에 넣습니다.
 
 # 시작
 ## 카메라
-![maincamera](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/maincamera.png?raw=true)
+![maincamera]({{site.ur}}/images/2023-02-15-unity_flappybird02/maincamera.png?raw=true)
 
 위 그림과 같이 Main Camera 게임 오브젝트만 남기고 전에 생성한 오브젝트들을 지워줍니다.
 
@@ -38,7 +38,7 @@ Main Camera를 선택했을 때 Scene창에서 나오는 사각형의 영역이 
 
 
 ## 화면조정
-![gametab](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/gametab02.png?raw=true)
+![gametab]({{site.ur}}/images/2023-02-15-unity_flappybird02/gametab02.png?raw=true)
 
 우측의 Game 탭을 선택하면 실제 게임 화면을 확인 가능합니다.
 
@@ -47,7 +47,7 @@ Free Aspect > + > (Label = phone, Type = Aspect Ratio, 9:16)으로 만들겠습�
 
 
 
-![gametab03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/gametab03.png?raw=true)
+![gametab03]({{site.ur}}/images/2023-02-15-unity_flappybird02/gametab03.png?raw=true)
 
 화면이 휴대폰 사이즈로 변경된 것을 확인할 수 있습니다.
 
@@ -55,7 +55,7 @@ Free Aspect > + > (Label = phone, Type = Aspect Ratio, 9:16)으로 만들겠습�
 
 
 ## Player게임오브젝트 생성
-![creategameobject](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/creategameobject.png?raw=true)
+![creategameobject]({{site.ur}}/images/2023-02-15-unity_flappybird02/creategameobject.png?raw=true)
 
 하이어러키 창에서 우클릭 -> 2D Object -> Sprites -> Circle 게임오브젝트를 생성합니다.
 
@@ -67,18 +67,18 @@ Sprite Renderer 컴포넌트는 그림을 보여주는 컴포넌트입니다.
 
 
 
- ## 콜라이더(Collider)
+## 콜라이더(Collider)
 
 **콜라이더**는 **충돌 영역을 감지**하는 컴포넌트입니다.
 
-![collider](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/collider.png?raw=true)
+![collider]({{site.ur}}/images/2023-02-15-unity_flappybird02/collider.png?raw=true)
 
 Plater 게임오브젝트 선택 후 인스펙터창에서 
 Add Component > col 검색 > Capsul Collider 2D 생성합니다.
 
 
 
-![collider02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/collider02.png?raw=true)
+![collider02]({{site.ur}}/images/2023-02-15-unity_flappybird02/collider02.png?raw=true)
 
 Capsul Collider 2D 컴포넌트에서 Edit Collider 혹은 Offset과 Size를 조정하여 캐릭터에 맞게 초록색 충돌 영역을 조정합니다. 
 
@@ -86,25 +86,28 @@ Is Trigger를 체크하면 오브젝트가 충돌이 되지 않고, 다른 콜�
 
 
 
- ## 리지드바디(Rigibody)
+## 리지드바디(Rigibody)
 
- **리지드바디**는 **물리엔진**을 사용할수 있게하는 컴포넌트입니다.
+**리지드바디**는 **물리엔진**을 사용할수 있게하는 컴포넌트입니다.
 
 
 
-![rigidbody](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-15-unity_flappybird02/rigidbody.PNG?raw=true)
+![rigidbody]({{site.ur}}/images/2023-02-15-unity_flappybird02/rigidbody.PNG?raw=true)
 
 Rigidbody2D 컴포넌트를 Player게임오브젝트에 추가합니다.
 
--프로퍼티-
-Body type(Dynamic, Kinematic, Static)
-Dynamic: 물리 영향 + 움직임
-Kinematic: 물리 여향 X + 움직임
-Static: 물리 영향 X + 움직임 X
-Mass: 질량
-Linear Drag: 공기 저항
-Angular Drag: 회전 저항
-Gravity Scale: 중력
+| **프로퍼티**          | **기능**                                          |
+|-------------------|-------------------------------------------------|
+| **Body type**     | Dynamic, Kinematic, Static  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   |
+| **Dynamic**       | 물리 영향 + 움직임                                     |
+| **Kinematic**     | 물리 여향 X + 움직임                                   |
+| **Static**        | 물리 영향 X + 움직임 X                                 |
+| **Mass**          | 질량                                              |
+| **Linear Drag**   | 공기 저항                                           |
+| **Angular Drag**  | 회전 저항                                           |
+| **Gravity Scale** | 중력                                              |
+
+
 
 저희는  Body Type : Dynamic / Collision Detection : Continuous 설정합니다.
 

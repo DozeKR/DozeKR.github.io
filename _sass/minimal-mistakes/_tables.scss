@@ -21,6 +21,12 @@ thead {
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
+
+/* 두 번째 열을 70% 너비로 설정 */
+th:nth-child(2), td:nth-child(2) {
+  width: 80%;
+}
+
 th {
   padding: 0.5em;
   font-weight: bold;

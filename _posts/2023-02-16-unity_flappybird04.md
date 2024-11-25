@@ -15,7 +15,7 @@ sidebar:
 
 # 사전준비
 
-![사전준비](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/%EC%82%AC%EC%A0%84%EC%A4%80%EB%B9%84.png?raw=true)
+![사전준비]({{site.ur}}/images/2023-02-16-unity_flappybird04/%EC%82%AC%EC%A0%84%EC%A4%80%EB%B9%84.png?raw=true)
 
 위의 이미지처럼 천장과 바닥 오브젝트를 생성 해줍니다. 컴포넌트로 Box Collider 2D를 넣어줍니다.
 
@@ -55,7 +55,7 @@ private void OnCollisionExit2D (Collision2D collision)
 
 
 
-![Collision](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/Collision.png?raw=true)
+![Collision]({{site.ur}}/images/2023-02-16-unity_flappybird04/Collision.png?raw=true)
 
 바닥과 처음 부딪혔을때 "Enter"가 그 이후로 "Stay"가 호출돼는 것을 알 수 있습니다.
 
@@ -90,14 +90,14 @@ private void OnTriggerExit2D (Collider2D collision)
 
 
 
-![Trigger](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/Trigger.png?raw=true)
+![Trigger]({{site.ur}}/images/2023-02-16-unity_flappybird04/Trigger.png?raw=true)
 
 빈 오브젝트를 생성해 Trigger로 이름을 변경하고 Tag에 Trigger를 추가해줍니다. 그리고 태그를 Trigger로 바꿔주고 BoxCollider2D 컴포넌트를 추가하고 Is Trigger를 체크해줍니다.
 트리거의 위치는 플레이어가 떨어질 위치에 조정해주고 테스트 합니다.
 
 
 
-![Trigger02](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/Trigger02.png?raw=true)
+![Trigger02]({{site.ur}}/images/2023-02-16-unity_flappybird04/Trigger02.png?raw=true)
 
 트리거와 충돌이 발생할때 "TEnter", 충돌중일 때 "TStay", 충돌이 종료됐을 때 "TExit"이 출력된걸 확인할 수 있습니다.
 
@@ -121,7 +121,7 @@ Trigger 오브젝트를 만들때 붙여준 태그를 활용하여 if문을 활�
 
 
 
-![Trigger03](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/Trigger03.png?raw=true)
+![Trigger03]({{site.ur}}/images/2023-02-16-unity_flappybird04/Trigger03.png?raw=true)
 
 테스트 결과입니다. 트리거를 빠져나오면서 +1도 출력된 것을 확인할 수 있습니다.
 
@@ -178,7 +178,7 @@ Update()에서 **Input.GetMouseButtonDown(0)**를 통해 마우스 클릭의 참
 
 
 
-![mission01](https://github.com/DozeKR/DozeKR.github.io/blob/master/images/2023-02-16-unity_flappybird04/mission01.png?raw=true)
+![mission01]({{site.ur}}/images/2023-02-16-unity_flappybird04/mission01.png?raw=true)
 
 실행해보면 마우스 클릭시 플레이어 오브젝트가 위로 올라가는 것과 "jump"가 출력되는 것을 확인할 수 있습니다.
 
