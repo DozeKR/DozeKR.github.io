@@ -32,8 +32,7 @@ sidebar:
 
 [Unity다운](https://store.unity.com/kr/download?gclid=Cj0KCQiAi8KfBhCuARIsADp-A551c5kKfOAVcE6jWVTW-V2mNXrpNT8yZgX3o9ZM3S9mlB3xIwn4U5YaAlMQEALw_wcB&gclsrc=aw.ds){: .btn .btn--info}
 
-
-![newproject2D]({{site.url}}/images/2023-02-15-unity_flappybird01/newproject2D.PNG?raw=true)
+![newproject2D]({{site.url}}/images/2023-02-15-unity_flappybird01/newproject2D.png)
 
 에디터 버젼: 2021.3.18f1 에서 진행하겠습니다.
 2D코어를 선택하고 프로젝트명을 바꾸고 프로젝트를 생성하겠습니다.
