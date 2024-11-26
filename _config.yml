@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Doze DataBase"
+title                    : "DozeDataBase"
 title_separator          : "|"
 subtitle                 : "There is nothing in vain in all experience."
 name                     : "Doze"
@@ -106,19 +106,22 @@ analytics:
 author:
   name             : "Doze"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "도즈의 **DataBase**"
+  bio              : "**도즈의 DataBase**"
   location         : "South Korea"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jd05183@naver.com"
-    - label: "Profile"
-      icon: "fas fa-fw fa-link"
-      url: "https://dozekr.github.io/posting/first/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DozeKR"
+    - label: "Profile"
+      icon: "fas fa-fw fa-link"
+      url: "https://dozekr.github.io/posting/first/"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: "https://dozekr.github.io/posting/second/"
 
 # Site Footer
 footer:

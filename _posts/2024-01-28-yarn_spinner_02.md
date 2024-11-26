@@ -10,7 +10,7 @@ author_profile: false
 sidebar:
     nav: "counts"
 ---
-# [YarnSpinner] #01 Yarn Fiels
+# [YarnSpinner] #02 Yarn Fiels
 ## Yarn Proejct
 Yarn 스크립트를 함께 연결하는 파일
 
@@ -66,6 +66,7 @@ Dialouge Runner가 대화를 시작하라는 명령을 받으면 제공된 Yarn 
 
 
 ### Inspector
+
 |Property|Description|
 |---|---|
 |Source Files|Yarn Project에서 Yarn Scripts를 찾는 장소 목록|

@@ -10,6 +10,7 @@ table {
   font-size: $type-size-6;
   border-collapse: collapse;
   overflow-x: auto;
+  table-layout: fixed;
 
   & + table {
     margin-top: 1em;
@@ -21,12 +22,6 @@ thead {
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
-
-/* 두 번째 열을 70% 너비로 설정 */
-th:nth-child(2), td:nth-child(2) {
-  width: 80%;
-}
-
 th {
   padding: 0.5em;
   font-weight: bold;
@@ -36,6 +31,11 @@ th {
 td {
   padding: 0.5em;
   border-bottom: 1px solid mix(#000, $border-color, 25%);
+}
+
+/* 첫 번째 열만 30% 너비로 설정 */
+th:first-child, td:first-child {
+  width: 20%;
 }
 
 tr,
