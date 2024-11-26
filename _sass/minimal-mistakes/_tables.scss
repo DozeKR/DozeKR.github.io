@@ -33,10 +33,6 @@ td {
   border-bottom: 1px solid mix(#000, $border-color, 25%);
 }
 
-/* 첫 번째 열만 30% 너비로 설정 */
-th:first-child, td:first-child {
-  width: 20%;
-}
 
 tr,
 td,
