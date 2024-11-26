@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Doze"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**도즈의 DataBase**"
   location         : "South Korea"
   email            : 
@@ -129,6 +129,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DozeKR"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@Doze-Travel"
 
 
 # Reading Files
