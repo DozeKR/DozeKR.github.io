@@ -12,15 +12,18 @@ sidebar:
 ---
 # [YarnSpinner] #02 Yarn Fiels
 ## Yarn Proejct
+
 Yarn 스크립트를 함께 연결하는 파일
 
-![img](https://307131674-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MUzduXovTOfMmBpZ0Wi%2Fuploads%2Fgit-blob-5d3ace6ce661f4b86c3e2ce02840b9dfef042680%2Fyarn-project-inspector.png?alt=media)
+![img](https://307131674-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MUzduXovTOfMmBpZ0Wi%2Fuploads%2Fgit-blob-5d3ace6ce661f4b86c3e2ce02840b9dfef042680%2Fyarn-project-inspector.png?alt=media){:.img-width-half}
 
 Asset menu -> Yarn Spinner -> Yarn Project 로 생성
 
 
+<br>
 
 ### Yarn Project에 Yarn Script를 추가하는 방법
+---
 
 Yarn Project에는 프로젝트가 Source Files 디렉토리에서 찾은 모든 Yarn Scripts를 포함
 
@@ -36,15 +39,18 @@ Source Files 필드에 원하는 만큼 항목을 추가 가능
 파일이 여러 패턴으로 일치하는 경우 한 번만 포함 
 
 
+<br>
 
 ### Yarn Script에서 Yan Project 생성 가능
+---
 원하는 Yarn Script를 선택 -> Inspector 에서 Create New Yarn Project 클릭해서 생성
 
 위와 같은 방식으로 생성할 경우 Yarn Script 옆에 Yarn Project가 생성되며, Yarn Script를 Yan Project에 포함
 
-
+<br>
 
 ### Managing Localisations and Assets
+---
 다른 것으로 변경하지 않는 한 기본 언어를 컴퓨터의 현재 로케일로 설정
 
 ![img](https://307131674-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MUzduXovTOfMmBpZ0Wi%2Fuploads%2Fgit-blob-909d5d0f204159e08d1cec08a47062844722d413%2Fdefault-language.png?alt=media&token=489ea7ca-bc41-4e22-b956-e07080f21ea0)
@@ -55,17 +61,19 @@ Base Language를 변경해서 Yarn Project의 기본 언어를 설정 가능
 
 추가 방법은 [Adding Localizations and Assets to Projects](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) 을 참조 
 
-
+<br>
 
 ### Using Yarn Projects with Dialogue Runners
+---
 
 Yarn Project는 Dialogue Runner에서 사용
 
 Dialouge Runner가 대화를 시작하라는 명령을 받으면 제공된 Yarn Project에서 읽음
 
-
+<br>
 
 ### Inspector
+---
 
 |Property|Description|
 |---|---|
@@ -76,16 +84,25 @@ Dialouge Runner가 대화를 시작하라는 명령을 받으면 제공된 Yarn 
 |Add Line Tags to Scripts|버튼 클릭 시,소스 스크립트 목록에 line 태그가 없는 대화행이 하나 추가.|
 
 
-
+<br>
 
 ## Yarn Script
+
 Yarn Script는 대화 내용이 들어 있는 텍스트 파일
 
 Yarn Script는 게임에 사용하려면 Yarn Project의 일부여야 함
 
+<br>
+
 ### Creating a New File
+---
+
 Asset Menu -> Yarn Spinner -> Yarn Script 로 생성
 새로 만든 파일에는 파일과 같은 이름의 단일 노드가 포함 됨
 
+<br>
+
 ### Editing Yarn Scripts
+---
+
 Yarn script 파일을 두 번 클릭 하면 VS Code를 통해 편집 가능
