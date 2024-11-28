@@ -29,7 +29,7 @@ sidebar:
 
 만약 두 UI요소가 겹쳐져 있다면 나중에 그려진 것이 위에 나타난다.
 
-![요소그리기순서]({{site.url}}/images/2024-01-15-unity_ui_canvas/요소그리기순서.PNG)
+![DrawingOrder]({{site.url}}/images/2024-01-15-unity_ui_canvas/DrawingOrder.PNG)
 
 
 
