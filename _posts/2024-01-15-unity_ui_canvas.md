@@ -176,7 +176,7 @@ UI 요소의 포지션과 크기가 밀리미터, 포인트 또는 피카 등의
 
 
 
-Canvas Scaler 와 Rect Transform의 앵커를 통해 여러 해상도의 대응할 수 있는 UI를 만들 수 있다. 자세한 내용은 [이 페이지]에 서술한다.
+Canvas Scaler 와 Rect Transform의 앵커를 통해 여러 해상도의 대응할 수 있는 UI를 만들 수 있다. 자세한 내용은 [이 페이지]({{site.url}}/study/unity_ui_use/)에 서술한다.
 
 <br>
 
