@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[YarnSpinner] #02 Yarn Files "
-categories: etc
+categories: Study
 tag: [YarnSpinner]
 toc: true 
 toc_sticky: true 
