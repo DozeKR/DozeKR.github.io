@@ -31,7 +31,7 @@ sidebar:
 
 ![DrawingOrder]({{site.url}}/images/2024-01-15-unity_ui_canvas/DrawingOrder.PNG)
 
-
+![DrawingOrder](/images/2024-01-15-unity_ui_canvas/DrawingOrder-1732784445108-3.PNG)
 
 <br>
 
