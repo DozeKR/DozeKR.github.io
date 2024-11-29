@@ -65,14 +65,12 @@ Rect Transform은 일반 Transform처럼 포지션, 회전, 스케일도 있고,
 
 하지만 RectTransform의 오브젝트는 sizeDelta를 통해서 사각영역의 너비와 높이를 변경하여 크기를 변경한다.
 
-```C#
-
+```c#
 public RectTransform rect;
 
 rect.sizeDelta = new Vector2(500, 500);
 
 rect.sizeDelta = rect.sizeDelta * 0.9f;
-
 ```
 
 <br>
@@ -127,5 +125,4 @@ RectTransform의 부모 또한 RectTransform인 경우, 자식 RectTransform은 
 - 추가 사용 가능한 공간이 있으면 가변 크기가 할당
 
 <br>
-
 
