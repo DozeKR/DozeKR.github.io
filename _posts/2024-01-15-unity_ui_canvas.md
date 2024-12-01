@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[UnityUI] #01 Canvas "
+title:  "[Unity] UI #01 Canvas "
 categories: Study
 tag: [Unity, UI]
 toc: true 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[UnityUI] #02 Layout "
+title:  "[Unity] UI #02 Layout "
 categories: Study
 tag: [Unity, UI]
 toc: true 
@@ -107,22 +107,89 @@ RectTransform의 부모 또한 RectTransform인 경우, 자식 RectTransform은 
 
 <br>
 
-## 레이아웃 요소
+## 레이아웃 요소(Layout Elements)
 
-자기 자신을 정의하는 프로퍼티
+- 자기 자신을 정의하는 프로퍼티
 
-- 최소 너비
-- 최소 높이
-- 선호 너비
-- 선호 높이
-- 가변 너비
-- 가변 높이
+  - 최소 너비 (Min Width)
 
-레이아웃 그룹의 레이아웃 요소 크기가 정해지는 기본 원리
+  - 최소 높이 (Min Hegiht)
 
-- 최소 크기 할당
-- 충분히 사용 가능한 공간이 있으면 선호 크기 할당
-- 추가 사용 가능한 공간이 있으면 가변 크기가 할당
+  - 선호 너비 (Preferred Width)
+
+  - 선호 높이 (Preferred Height)
+
+  - 가변 너비 (Flexible Width)
+
+  - 가변 높이 (Flexible Height)
+
+
+<br>
+
+- 레이아웃 그룹의 레이아웃 요소 크기가 정해지는 기본 원리
+
+  - 최소 크기 할당
+
+  - 충분히 사용 가능한 공간이 있으면 선호 크기 할당
+
+  - 추가 사용 가능한 공간이 있으면 가변 크기가 할당
+
+
+<br>
+
+### Layout Element 컴포넌트
+
+---
+
+최소, 선호, 가변 크기를 오버라이드하고 싶다면 게임 오브젝트에 Layout Element 컴포넌트를 추가한다.
+
+![LayoutElement](/images/2024-01-16-unity_ui_layout/LayoutElement.PNG)
+
+<br>
+
+## 레이아웃 컨트롤러(Layout Controllers)
+
+
+
+<br>
+
+### 콘텐츠 크기 피터(Content Size Fitter)
+
+---
+
+
+
+<br>
+
+### 종횡비 피터(Aspect Ratio Fitter)
+
+---
+
+
+
+<br>
+
+### 수평 레이아웃 그룹(Horizontal Layout  Group)
+
+---
+
+
+
+<br>
+
+### 수직  레이아웃 그룹(Vertical Layout  Group)
+
+---
+
+
+
+<br>
+
+### 그리드 레이아웃 그룹(Grid Laytout Group)
+
+---
+
+
 
 <br>
 

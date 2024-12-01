@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Unity] UI #04 How to use UI "
+title:  "[Unity] UI #05 UI Optimization"
 categories: Study
 tag: [Unity, UI]
 toc: true 
@@ -10,17 +10,3 @@ author_profile: false
 sidebar:
     nav: "counts"
 ---
-
-# 여러 해상도의 UI 설계
-
----
-
-
-<br>
-
-# UI 요 소를 콘텐츠 크기에 맞추기
-
----
-
-
-<br>
