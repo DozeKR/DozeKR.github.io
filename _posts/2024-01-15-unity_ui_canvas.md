@@ -104,7 +104,7 @@ Canvas Scaler 컴포넌트는 캔버스 내 UI 요소의 전체적인 스케일�
 
 스케일은 글꼴 크기와 이미지 경계 등 **캔버스 아래의 모든 요소에 영향을 미친다.**
 
-
+Canvas Scaler 와 Rect Transform의 앵커를 통해 여러 해상도의 대응할 수 있는 UI를 만들 수 있다. 자세한 내용은 [이 페이지](https://dozekr.github.io/study/unity_ui_use/)에 서술한다.
 
 ![CanvasScaler](/images/2024-01-15-unity_ui_canvas/CanvasScaler.PNG)
 
@@ -171,12 +171,6 @@ UI 요소의 포지션과 크기가 밀리미터, 포인트 또는 피카 등의
 | **Reference Pixels Per Unit** | 스프라이트에 ‘Pixels Per Unit’ 설정이 있는 경우 DPI는 ‘Default Sprite DPI’ 설정과 일치한다. |
 
 
-
-<br>
-
-
-
-Canvas Scaler 와 Rect Transform의 앵커를 통해 여러 해상도의 대응할 수 있는 UI를 만들 수 있다. 자세한 내용은 [이 페이지](https://dozekr.github.io/study/unity_ui_use/)에 서술한다.
 
 <br>
 
