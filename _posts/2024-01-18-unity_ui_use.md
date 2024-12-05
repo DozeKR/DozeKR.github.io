@@ -17,9 +17,9 @@ sidebar:
 <p class="notice--info" style="font-size: 1rem !important;">
     <strong> - 참고 사항 -</strong>
     <br>
-    <a href="https://dozekr.github.io/study/unity_ui_canvas/"> 캔버스 스케일러(Canvas Scaler)</a>
+    <a href="https://dozekr.github.io/study/unity_ui_canvas/#%EC%BA%94%EB%B2%84%EC%8A%A4-%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%9F%ACcanvas-scaler"> 캔버스 스케일러(Canvas Scaler)</a>
     <br>
-    <a href="https://dozekr.github.io/study/unity_ui_layout/"> 앵커(Anchor)</a>
+    <a href="https://dozekr.github.io/study/unity_ui_layout/#%EC%95%B5%EC%BB%A4anchor"> 앵커(Anchor)</a>
 </p>
 
 최신 게임과 어플은 아주 다양한 스크린 행상도를 지원해야 하는 경우가 많고, 특히 UI 레이아웃을 여러 해상도에 맞게 조정할 수 있어야 한다.
@@ -71,7 +71,7 @@ UI 요소를 스크린 위치에 해당하는 코너에 **앵커(Anchor)**를 �
 <p class="notice--info" style="font-size: 1rem !important;">
     <strong> - 참고 사항 -</strong>
     <br>
-    <a href="https://dozekr.github.io/study/unity_ui_layout/"> 레이아웃(Layout)</a>
+    <a href="https://dozekr.github.io/study/unity_ui_layout/#%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AClayout-controllers"> 레이아웃(Layout)</a>
 </p>
 
 ## 텍스트 크기에 맞추기
