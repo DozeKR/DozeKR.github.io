@@ -12,7 +12,9 @@ sidebar:
 ---
 
 # [YarnSpinner] #04 Yarn Script Details
+
 ## Variables
+
 변수는 숫자, String, bool 중 하나를 저장할 수 있음
 
 ### 변수 선언

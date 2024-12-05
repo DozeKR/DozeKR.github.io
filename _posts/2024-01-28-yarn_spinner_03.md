@@ -12,7 +12,9 @@ sidebar:
 ---
 
 # [YarnSpinner] #03 Yarn Scripts Configuration
+
 ## Node
+
 노드는 대화를 넣을 수 있는 곳
 파일에 링크하는 수만큼 노드를 가질 수 있음
 노드는 이야기의 이부를 분리하고 더 긴 이야기와 분기를 관리하기 쉽게 만드는데 사용
